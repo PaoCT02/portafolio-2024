@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+        #nav-redes {
+            position: fixed;
+            top: 50px;
+            left: 0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(236, 236, 243, 0.2);
+            border-radius: 0 5px;
+            width: 200px;
+            max-height: 90vh;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        .redes {
+            text-decoration: none; 
+            margin-bottom: 5px;
+        }
+        .img-redes {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section id="nav-redes">
+        <a class="redes" href=""><img src="/img/instagram.png" alt="instagram" class="img-redes"></a>
+        <a class="redes" href=""><img src="/img/github.png" alt="github" class="img-redes"></a>
+        <a class="redes" href=""><img src="/img/linkedin.png" alt="linkedin" class="img-redes"></a>
+        <a class="redes" href=""><img src="/img/gmail.png" alt="gmail" class="img-redes"></a>
+        <a class="redes" href=""><img src="/img/web.png" alt="web" class="img-redes"></a>
+    </section>
+</body>
+</html>
